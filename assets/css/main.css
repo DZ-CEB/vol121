@@ -3387,3 +3387,10 @@ input, select, textarea {
 /* Image extra */
   .floatLeft { width: 50%; float: left; }
   .floatRight {width: 50%; float: right; }
+
+.unselectable {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */       
+} 
